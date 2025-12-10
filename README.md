@@ -74,4 +74,5 @@
 
 
 
-6）可视化示例：Doris作为一个MPP高性能数据库，在查询性能上有显著优势，所以本项目通过Doris Catalog去对接paimon表进行可视化![2025-12-10 164809](C:\Users\32160\Downloads\flink-1.17.1-src\gmallwarehouse\images\2025-12-10 164809.png)
+6）可视化示例：Doris作为一个MPP高性能数据库，在查询性能上有显著优势，所以本项目通过Doris Catalog去对接paimon表进行可视化![2025-12-10 164809](images/2025-12-10 164809.png)
+
