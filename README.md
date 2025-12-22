@@ -6,7 +6,7 @@
 
 ## 2.架构
 
-![架构](images/image-20251210113202641.png)
+![架构](images/jiagou.png)
 
 1)数据源：本项目通过Spring模拟数据生成器，分别生成日志以及业务数据。日志数据写入Kafka队列，业务数据写入MySQL数据库。
 
@@ -75,6 +75,7 @@
 
 
 6）DataRt可视化示例：StarRocks作为一个MPP高性能数据库，在查询性能上有显著优势，本项目通过StarRocks对接paimon catalog，使用DataRt可视化工具对数据进行可视化![2025-12-10 164809](images/11111.png)
+
 
 
 
