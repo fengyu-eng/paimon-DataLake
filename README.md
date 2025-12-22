@@ -14,7 +14,7 @@
 
 3)数仓分层：ODS(原始数据层)->DIM(维度层)->DWD(明细层)->DWS(汇总层)->ADS(应用层)
 
-4)可视化：通过Doris Catalog对接paimon数据源，使用Superset进行可视化分析
+4)可视化：通过StarRocks的paimon Catalog对接paimon数据源，使用DataRT进行可视化分析
 
 ## 3.版本
 
@@ -75,6 +75,7 @@
 
 
 6）DataRt可视化示例：StarRocks作为一个MPP高性能数据库，在查询性能上有显著优势，本项目通过StarRocks对接paimon catalog，使用DataRt可视化工具对数据进行可视化![2025-12-10 164809](images/11111.png)
+
 
 
 
