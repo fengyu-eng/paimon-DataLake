@@ -21,10 +21,10 @@
 | 软件   | 版本   | 下载地址                                                     |
 | ------ | ------ | ------------------------------------------------------------ |
 | Flink  | 1.17.2 | https://mirrors.aliyun.com/apache/flink/flink-1.17.2/flink-1.17.2-bin-scala_2.12.tgz |
-| Paimon | 0.8.0  | https://repo.maven.apache.org/maven2/org/apache/paimon/paimon-flink-1.17/0.8.0/paimon-flink-1.17-0.8.0.jar |
+| Paimon | 1.2.0  | https://repo.maven.apache.org/maven2/org/apache/paimon/paimon-flink-1.17/0.8.0/paimon-flink-1.17-1.2.0.jar |
 | Hadoop | 3.1.3  | https://archive.apache.org/dist/hadoop/common/hadoop-3.1.3/hadoop-3.1.3.tar.gz |
 | Kafka  | 3.7.1  | https://mirrors.aliyun.com/apache/kafka/3.7.2/kafka_2.12-3.7.2.tgz |
-| Doris  | 2.1.0  | https://apache-doris-releases.oss-accelerate.aliyuncs.com/apache-doris-2.1.0-bin-x64.tar.gz |
+| StarRocks| 3.5.11 | https://releases.starrocks.io/starrocks/StarRocks-3.5.11-centos-amd64.tar.gz|
 | JDK    | 8      |                                                              |
 | MAVEN  | 3.9.9  | https://mirrors.aliyun.com/apache/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.tar.gz |
 | Hive   | 3.1.3  | https://mirrors.huaweicloud.com/apache/hive/hive-3.1.3/apache-hive-3.1.3-bin.tar.gz |
@@ -75,6 +75,7 @@
 
 
 6）DataRt可视化示例：StarRocks作为一个MPP高性能数据库，在查询性能上有显著优势，本项目通过StarRocks对接paimon catalog，使用DataRt可视化工具对数据进行可视化![2025-12-10 164809](images/11111.png)
+
 
 
 
